@@ -2,11 +2,11 @@ body {
   background-color: #151A27;
 }
 
-.books {
+.quizzes {
   color: #ffffff;
   padding-top: 75px;
 }
-.books .LeftMenu {
+.quizzes .LeftMenu {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
@@ -15,51 +15,51 @@ body {
   transition: 0.3s ease-in-out;
   z-index: 2;
 }
-.books .LeftMenu ul {
+.quizzes .LeftMenu ul {
   background-color: #21283B;
   align-items: center;
   flex-direction: column;
   padding: 50px 10px;
   border-radius: 6px;
 }
-.books .LeftMenu ul .dropped {
+.quizzes .LeftMenu ul .dropped {
   text-align: center;
   border-bottom: 1px solid #ccc;
 }
-.books .LeftMenu ul .dropped .dropped-item {
+.quizzes .LeftMenu ul .dropped .dropped-item {
   display: none;
   padding: 0;
 }
-.books .LeftMenu ul .dropped .dropped-item li a {
+.quizzes .LeftMenu ul .dropped .dropped-item li a {
   color: #888;
   font-size: 1rem;
 }
-.books .LeftMenu ul .dropped .dropped-item li:hover a {
+.quizzes .LeftMenu ul .dropped .dropped-item li:hover a {
   color: #fff;
 }
-.books .LeftMenu ul li {
+.quizzes .LeftMenu ul li {
   padding: 10px 0;
 }
-.books .LeftMenu ul li:hover a {
+.quizzes .LeftMenu ul li:hover a {
   color: #088dcd;
 }
-.books .LeftMenu ul li a {
+.quizzes .LeftMenu ul li a {
   color: #BCBCBC;
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 700;
 }
-.books .LeftMenu ul li .tag {
+.quizzes .LeftMenu ul li .tag {
   font-size: 0.8rem;
   background-color: green;
   padding: 2px 5px;
   border-radius: 5px;
   font-weight: 500;
 }
-.books .LeftMenu ul li span {
+.quizzes .LeftMenu ul li span {
   color: #BCBCBC;
 }
-.books .LeftMenu ul button {
+.quizzes .LeftMenu ul button {
   padding: 8px 18px;
   background-color: yellow;
   border-radius: 30px;
@@ -67,13 +67,13 @@ body {
   position: relative;
   overflow: hidden;
 }
-.books .LeftMenu ul button a {
+.quizzes .LeftMenu ul button a {
   position: relative;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
 }
-.books .LeftMenu ul button::before {
+.quizzes .LeftMenu ul button::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -84,7 +84,7 @@ body {
   transform: translateY(-45%) skew(25deg) scale(0);
   transition: 0.3s ease-in-out;
 }
-.books .LeftMenu ul button:hover::before {
+.quizzes .LeftMenu ul button:hover::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -96,21 +96,21 @@ body {
   color: #fff;
   border-radius: 3px;
 }
-.books .LeftMenu ul button:hover a {
+.quizzes .LeftMenu ul button:hover a {
   color: #fff;
 }
-.books .books-left .books-left-main {
+.quizzes .quizzes-left .quizzes-left-main {
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 6px;
   position: relative;
   background-color: #1D2333;
 }
-.books .books-left .books-left-main .books-left-title h4 {
+.quizzes .quizzes-left .quizzes-left-main .quizzes-left-title h4 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   padding: 10px 0;
   font-size: 18px;
 }
-.books .books-left .books-left-main .books-left-title::before {
+.quizzes .quizzes-left .quizzes-left-main .quizzes-left-title::before {
   position: absolute;
   content: " ";
   width: 4px;
@@ -119,55 +119,39 @@ body {
   left: 0;
   top: 7px;
 }
-.books .books-left .books-left-main .books-left-body {
+.quizzes .quizzes-left .quizzes-left-main .quizzes-left-body {
   padding-bottom: 15px;
 }
-.books .books-left .books-left-main .books-left-body .books-body-top {
-  display: flex;
-  padding-bottom: 15px;
-}
-.books .books-left .books-left-main .books-left-body .books-body-top a {
-  color: #ffffff;
+.quizzes .quizzes-left .quizzes-left-main .quizzes-left-body a {
   text-decoration: none;
-  padding: 3px 15px;
-  background-color: #293249;
-  border: 1px solid #3e4658;
-  border-radius: 25px;
-  transition: 0.3s ease-in-out;
-  margin-right: 10px;
-  font-size: 14px;
-  font-weight: 600;
 }
-.books .books-left .books-left-main .books-left-body .books-body-top a:hover {
-  color: #088dcd;
-}
-.books .books-left .books-left-main .books-left-body .books-box {
+.quizzes .quizzes-left .quizzes-left-main .quizzes-left-body a .quizzes-box {
   cursor: pointer;
   color: #fff;
   padding: 10px 0 20px 0;
 }
-.books .books-left .books-left-main .books-left-body .books-box:hover .books-box-top img {
+.quizzes .quizzes-left .quizzes-left-main .quizzes-left-body a .quizzes-box:hover .quizzes-box-top img {
   transform: scale(1.05);
 }
-.books .books-left .books-left-main .books-left-body .books-box:hover h4 {
+.quizzes .quizzes-left .quizzes-left-main .quizzes-left-body a .quizzes-box:hover h4 {
   color: #088dcd;
 }
-.books .books-left .books-left-main .books-left-body .books-box .books-box-top {
+.quizzes .quizzes-left .quizzes-left-main .quizzes-left-body a .quizzes-box .quizzes-box-top {
   overflow: hidden;
   border-radius: 6px;
 }
-.books .books-left .books-left-main .books-left-body .books-box .books-box-top img {
+.quizzes .quizzes-left .quizzes-left-main .quizzes-left-body a .quizzes-box .quizzes-box-top img {
   transition: 0.3s ease-in-out;
   border-radius: 6px;
 }
-.books .books-left .books-left-main .books-left-body .books-box h4 {
+.quizzes .quizzes-left .quizzes-left-main .quizzes-left-body a .quizzes-box h4 {
   padding-top: 10px;
   font-size: 14px;
 }
-.books .books-left .books-left-pages {
+.quizzes .quizzes-left .quizzes-left-pages {
   padding-top: 25px;
 }
-.books .books-left .books-left-pages .left-buttons {
+.quizzes .quizzes-left .quizzes-left-pages .left-buttons {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -180,31 +164,31 @@ body {
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
-.books .books-left .books-left-pages .left-buttons.current {
+.quizzes .quizzes-left .quizzes-left-pages .left-buttons.current {
   background-color: #088dcd;
   border-color: #088dcd;
 }
-.books .books-left .books-left-pages .left-buttons:hover {
+.quizzes .quizzes-left .quizzes-left-pages .left-buttons:hover {
   transform: scale(1.1);
 }
-.books .books-left .books-left-pages .left-buttons i {
+.quizzes .quizzes-left .quizzes-left-pages .left-buttons i {
   font-size: 14px;
 }
-.books .books-left .books-left-categories {
+.quizzes .quizzes-left .quizzes-left-categories {
   margin-top: 40px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 6px;
   position: relative;
   background-color: #1D2333;
 }
-.books .books-left .books-left-categories .courses-title {
+.quizzes .quizzes-left .quizzes-left-categories .courses-title {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
-.books .books-left .books-left-categories .courses-title .title-text h4 {
+.quizzes .quizzes-left .quizzes-left-categories .courses-title .title-text h4 {
   padding-top: 10px;
   font-size: 18px;
 }
-.books .books-left .books-left-categories .courses-title .title-text::before {
+.quizzes .quizzes-left .quizzes-left-categories .courses-title .title-text::before {
   position: absolute;
   content: " ";
   width: 4px;
@@ -213,19 +197,19 @@ body {
   left: 0;
   top: 7px;
 }
-.books .books-left .books-left-categories .courses-title .title-button {
+.quizzes .quizzes-left .quizzes-left-categories .courses-title .title-button {
   padding-top: 10px;
 }
-.books .books-left .books-left-categories .courses-title .title-button a {
+.quizzes .quizzes-left .quizzes-left-categories .courses-title .title-button a {
   font-size: 14px;
   color: #088dcd;
 }
-.books .books-left .books-left-categories .mySlider {
+.quizzes .quizzes-left .quizzes-left-categories .mySlider {
   width: 100%;
   padding-top: 25px;
 }
-.books .books-left .books-left-categories .mySlider .slick-next,
-.books .books-left .books-left-categories .mySlider .slick-prev {
+.quizzes .quizzes-left .quizzes-left-categories .mySlider .slick-next,
+.quizzes .quizzes-left .quizzes-left-categories .mySlider .slick-prev {
   border-radius: 50%;
   width: 35px;
   height: 35px;
@@ -234,91 +218,91 @@ body {
   transition: 0.3s ease-in-out;
   z-index: 45;
 }
-.books .books-left .books-left-categories .mySlider .slick-next:hover,
-.books .books-left .books-left-categories .mySlider .slick-prev:hover {
+.quizzes .quizzes-left .quizzes-left-categories .mySlider .slick-next:hover,
+.quizzes .quizzes-left .quizzes-left-categories .mySlider .slick-prev:hover {
   border-color: #088dcd;
 }
-.books .books-left .books-left-categories .mySlider .slick-next::before,
-.books .books-left .books-left-categories .mySlider .slick-prev::before {
+.quizzes .quizzes-left .quizzes-left-categories .mySlider .slick-next::before,
+.quizzes .quizzes-left .quizzes-left-categories .mySlider .slick-prev::before {
   font-weight: 700;
   color: #088dcd;
 }
-.books .books-left .books-left-categories .mySlider .slick-next {
+.quizzes .quizzes-left .quizzes-left-categories .mySlider .slick-next {
   right: -30px !important;
 }
-.books .books-left .books-left-categories .mySlider .slick-next::before {
+.quizzes .quizzes-left .quizzes-left-categories .mySlider .slick-next::before {
   content: ">";
 }
-.books .books-left .books-left-categories .mySlider .slick-prev {
+.quizzes .quizzes-left .quizzes-left-categories .mySlider .slick-prev {
   left: -30px !important;
 }
-.books .books-left .books-left-categories .mySlider .slick-prev::before {
+.quizzes .quizzes-left .quizzes-left-categories .mySlider .slick-prev::before {
   content: "<";
 }
-.books .books-left .books-left-categories .mySlider .sliders img {
+.quizzes .quizzes-left .quizzes-left-categories .mySlider .sliders img {
   border-radius: 7px;
 }
-.books .books-left .books-left-categories .mySlider .sliders h3 {
+.quizzes .quizzes-left .quizzes-left-categories .mySlider .sliders h3 {
   padding-top: 15px;
   font-size: 15px;
 }
-.books .books-right .right-popular {
+.quizzes .quizzes-right .right-popular {
   background-color: #1D2333;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 6px;
 }
-.books .books-right .right-popular h5 {
+.quizzes .quizzes-right .right-popular h5 {
   font-size: 16px;
   padding: 15px 0;
 }
-.books .books-right .right-popular .popular-body {
+.quizzes .quizzes-right .right-popular .popular-body {
   padding-bottom: 20px;
 }
-.books .books-right .right-popular .popular-body .popular-body-left {
+.quizzes .quizzes-right .right-popular .popular-body .popular-body-left {
   padding-top: 15px;
 }
-.books .books-right .right-popular .popular-body .popular-body-left img {
+.quizzes .quizzes-right .right-popular .popular-body .popular-body-left img {
   border-radius: 8px;
 }
-.books .books-right .right-popular .popular-body .popular-body-right h3 a {
+.quizzes .quizzes-right .right-popular .popular-body .popular-body-right h3 a {
   text-decoration: none;
   color: #ffffff;
   font-size: 15px;
 }
-.books .books-right .right-popular .popular-body .popular-body-right .popular-betweens {
+.quizzes .quizzes-right .right-popular .popular-body .popular-body-right .popular-betweens {
   color: #088dcd;
 }
-.books .books-right .right-popular .popular-body .popular-body-right .popular-betweens .between-left span {
+.quizzes .quizzes-right .right-popular .popular-body .popular-body-right .popular-betweens .between-left span {
   font-size: 12px;
 }
-.books .books-right .right-popular .popular-body .popular-body-right .popular-betweens .between-right a {
+.quizzes .quizzes-right .right-popular .popular-body .popular-body-right .popular-betweens .between-right a {
   color: #088dcd;
 }
-.books .books-right .right-ask {
+.quizzes .quizzes-right .right-ask {
   margin-top: 20px;
   background-color: #1D2333;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 6px;
   padding-bottom: 25px;
 }
-.books .books-right .right-ask h6 {
+.quizzes .quizzes-right .right-ask h6 {
   padding-top: 10px;
 }
-.books .books-right .right-ask .ask-body {
+.quizzes .quizzes-right .right-ask .ask-body {
   padding-top: 10px;
   padding-bottom: 25px;
 }
-.books .books-right .right-ask .ask-body i {
+.quizzes .quizzes-right .right-ask .ask-body i {
   color: #088dcd;
   font-size: 30px;
 }
-.books .books-right .right-ask .ask-body span {
+.quizzes .quizzes-right .right-ask .ask-body span {
   padding-left: 20px;
   font-size: 13px;
   font-weight: 600;
   width: 83%;
 }
-.books .books-right .right-ask a {
+.quizzes .quizzes-right .right-ask a {
   text-decoration: none;
   border: 1px solid #088dcd;
   padding: 7px 55px;
@@ -327,26 +311,26 @@ body {
   transition: 0.3s ease-in-out;
   margin: auto;
 }
-.books .books-right .right-ask a:hover {
+.quizzes .quizzes-right .right-ask a:hover {
   background-color: #088dcd;
   color: #ffffff;
 }
-.books .books-right .right-explore {
+.quizzes .quizzes-right .right-explore {
   margin-top: 20px;
   background-color: #1D2333;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 6px;
   padding-bottom: 20px;
 }
-.books .books-right .right-explore h6 {
+.quizzes .quizzes-right .right-explore h6 {
   padding-top: 10px;
 }
-.books .books-right .right-explore a {
+.quizzes .quizzes-right .right-explore a {
   text-decoration: none;
   font-size: 12px;
   padding-top: 10px;
 }
-.books .books-right .right-explore .explore-box {
+.quizzes .quizzes-right .right-explore .explore-box {
   border-radius: 6px;
   background-color: #8c6ad2;
   text-align: center;
@@ -354,19 +338,19 @@ body {
   overflow: hidden;
   margin-top: 15px;
 }
-.books .books-right .right-explore .explore-box.blueOne {
+.quizzes .quizzes-right .right-explore .explore-box.blueOne {
   background-color: #088dcd;
 }
-.books .books-right .right-explore .explore-box i {
+.quizzes .quizzes-right .right-explore .explore-box i {
   font-size: 45px;
   padding-top: 25px;
 }
-.books .books-right .right-explore .explore-box h4 {
+.quizzes .quizzes-right .right-explore .explore-box h4 {
   padding: 15px 0;
   font-size: 15px;
   cursor: pointer;
 }
-.books .books-right .right-explore .explore-box img {
+.quizzes .quizzes-right .right-explore .explore-box img {
   position: absolute;
   top: 10px;
   right: -20px;
@@ -374,27 +358,27 @@ body {
 }
 
 @media (max-width: 992px) {
-  .books .books-left,
-.books .books-right {
+  .quizzes .quizzes-left,
+.quizzes .quizzes-right {
     padding-top: 25px;
   }
-  .books .books-left .books-left-body {
+  .quizzes .quizzes-left .quizzes-left-body {
     padding-bottom: 15px;
   }
-  .books .books-left .books-left-body .books-left-box .books-left-box-text {
+  .quizzes .quizzes-left .quizzes-left-body .quizzes-left-box .quizzes-left-box-text {
     padding-top: 10px;
   }
 }
 @media (min-width: 992px) {
-  .books .books-right .right-ask a {
+  .quizzes .quizzes-right .right-ask a {
     padding: 7px 15px !important;
   }
 }
 @media (max-width: 1200px) {
-  .books .books-left .books-left-body {
+  .blogs .blogs-left .blogs-left-body {
     padding-bottom: 15px;
   }
-  .books .books-left .books-left-body .books-left-box .books-left-box-text {
+  .blogs .blogs-left .blogs-left-body .blogs-left-box .blogs-left-box-text {
     padding-top: 10px;
   }
-}/*# sourceMappingURL=book.css.map */
+}/*# sourceMappingURL=quizzes.css.map */

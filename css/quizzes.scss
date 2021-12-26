@@ -5,7 +5,7 @@ body {
 $divColor: #1D2333;
 $blue:#088dcd;
 
-.books {
+.quizzes {
     color: #ffffff;
     padding-top: 75px;
     .LeftMenu {
@@ -130,16 +130,16 @@ $blue:#088dcd;
 
     }
 
-    .books-left {
+    .quizzes-left {
 
-        .books-left-main {
+        .quizzes-left-main {
             border: 1px solid rgba(255, 255, 255, .08);
             border-radius: 6px;
             position: relative;
             background-color: $divColor;
 
 
-            .books-left-title {
+            .quizzes-left-title {
 
                 h4 {
                     border-bottom: 1px solid rgba(255, 255, 255, .08);
@@ -162,71 +162,55 @@ $blue:#088dcd;
 
             }
 
-            .books-left-body {
+            .quizzes-left-body {
                 padding-bottom: 15px;
 
-                .books-body-top {
-                    display: flex;
-                    padding-bottom: 15px;
+           
 
-                    a {
-                        color: #ffffff;
-                        text-decoration: none;
-                        padding: 3px 15px;
-                        background-color: #293249;
-                        border: 1px solid #3e4658;
-                        border-radius: 25px;
-                        transition: .3s ease-in-out;
-                        margin-right: 10px;
-                        font-size: 14px;
-                        font-weight: 600;
+                a{
+                    text-decoration: none;
+                    .quizzes-box {
 
+                        cursor: pointer;
+                        color: #fff;
+                        padding: 10px 0 20px 0;
+    
                         &:hover {
-                            color: $blue;
-                        }
-                    }
-                }
-
-                .books-box {
-
-                    cursor: pointer;
-                    color: #fff;
-                    padding: 10px 0 20px 0;
-
-                    &:hover {
-
-                        .books-box-top {
-                            img {
-                                transform: scale(1.05);
+    
+                            .quizzes-box-top {
+                                img {
+                                    transform: scale(1.05);
+                                }
+                            }
+    
+                            h4 {
+                                color: $blue;
                             }
                         }
-
-                        h4 {
-                            color: $blue;
-                        }
-                    }
-
-                    .books-box-top {
-                        overflow: hidden;
-                        border-radius: 6px;
-
-                        img {
-                            transition: .3s ease-in-out;
+    
+                        .quizzes-box-top {
+                            overflow: hidden;
                             border-radius: 6px;
+    
+                            img {
+                                transition: .3s ease-in-out;
+                                border-radius: 6px;
+                            }
                         }
+    
+                        h4 {
+                            padding-top: 10px;
+                            font-size: 14px;
+                        }
+    
+    
                     }
-
-                    h4 {
-                        padding-top: 10px;
-                        font-size: 14px;
-                    }
-
-
                 }
+              
             }
         }
 
-        .books-left-pages {
+        .quizzes-left-pages {
 
             padding-top: 25px;
 
@@ -260,7 +244,7 @@ $blue:#088dcd;
             }
         }
 
-        .books-left-categories {
+        .quizzes-left-categories {
             margin-top: 40px;
             border: 1px solid rgba(255, 255, 255, .08);
             border-radius: 6px;
@@ -368,7 +352,7 @@ $blue:#088dcd;
 
     }
 
-    .books-right {
+    .quizzes-right {
 
         .right-popular {
             // margin-top: 20px;
@@ -534,21 +518,21 @@ $blue:#088dcd;
 
 @media (max-width: 992px) {
 
-    .books {
+    .quizzes {
 
-        .books-left,
-        .books-right {
+        .quizzes-left,
+        .quizzes-right {
             padding-top: 25px;
         }
 
-        .books-left {
+        .quizzes-left {
 
 
-            .books-left-body {
+            .quizzes-left-body {
                 padding-bottom: 15px;
 
-                .books-left-box {
-                    .books-left-box-text {
+                .quizzes-left-box {
+                    .quizzes-left-box-text {
                         padding-top: 10px;
                     }
                 }
@@ -562,9 +546,9 @@ $blue:#088dcd;
 
 @media (min-width: 992px) {
 
-    .books{
+    .quizzes{
 
-        .books-right{
+        .quizzes-right{
             .right-ask{
                 
                     a{
@@ -579,17 +563,17 @@ $blue:#088dcd;
 }
 @media (max-width: 1200px) {
 
-    .books {
+    .blogs {
 
        
-        .books-left {
+        .blogs-left {
 
 
-            .books-left-body {
+            .blogs-left-body {
                 padding-bottom: 15px;
 
-                .books-left-box {
-                    .books-left-box-text {
+                .blogs-left-box {
+                    .blogs-left-box-text {
                         padding-top: 10px;
                     }
                 }
