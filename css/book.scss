@@ -385,6 +385,8 @@ $blue:#088dcd;
                 padding-bottom: 20px;
 
                 .popular-body-left {
+                    padding-top: 15px;
+
                     img {
 
                         border-radius: 8px;
@@ -392,7 +394,7 @@ $blue:#088dcd;
                 }
 
                 .popular-body-right {
-                    padding-top: 20px;
+                    // padding-top: 20px;
 
                     h3 {
                         a {
@@ -529,13 +531,73 @@ $blue:#088dcd;
 
 }
 
+
 @media (max-width: 992px) {
 
     .books {
+
+        .books-left,
         .books-right {
-            .right-popular {
-                margin-top: 20px !important;
+            padding-top: 25px;
+        }
+
+        .books-left {
+
+
+            .books-left-body {
+                padding-bottom: 15px;
+
+                .books-left-box {
+                    .books-left-box-text {
+                        padding-top: 10px;
+                    }
+                }
+
             }
         }
     }
+
 }
+
+
+@media (min-width: 992px) {
+
+    .books{
+
+        .books-right{
+            .right-ask{
+                
+                    a{
+                        padding: 7px 15px !important;
+                        // padding: 0;
+                    }
+                
+            }
+        }
+    }
+    
+}
+@media (max-width: 1200px) {
+
+    .blogs {
+
+       
+        .blogs-left {
+
+
+            .blogs-left-body {
+                padding-bottom: 15px;
+
+                .blogs-left-box {
+                    .blogs-left-box-text {
+                        padding-top: 10px;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+

@@ -274,11 +274,11 @@ body {
 .books .books-right .right-popular .popular-body {
   padding-bottom: 20px;
 }
+.books .books-right .right-popular .popular-body .popular-body-left {
+  padding-top: 15px;
+}
 .books .books-right .right-popular .popular-body .popular-body-left img {
   border-radius: 8px;
-}
-.books .books-right .right-popular .popular-body .popular-body-right {
-  padding-top: 20px;
 }
 .books .books-right .right-popular .popular-body .popular-body-right h3 a {
   text-decoration: none;
@@ -374,7 +374,27 @@ body {
 }
 
 @media (max-width: 992px) {
-  .books .books-right .right-popular {
-    margin-top: 20px !important;
+  .books .books-left,
+.books .books-right {
+    padding-top: 25px;
+  }
+  .books .books-left .books-left-body {
+    padding-bottom: 15px;
+  }
+  .books .books-left .books-left-body .books-left-box .books-left-box-text {
+    padding-top: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .books .books-right .right-ask a {
+    padding: 7px 15px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .blogs .blogs-left .blogs-left-body {
+    padding-bottom: 15px;
+  }
+  .blogs .blogs-left .blogs-left-body .blogs-left-box .blogs-left-box-text {
+    padding-top: 10px;
   }
 }/*# sourceMappingURL=book.css.map */

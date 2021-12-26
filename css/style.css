@@ -102,6 +102,7 @@ body {
 }
 .body-quiz .myQuiz {
   border: 1px solid red;
+  background-color: #1D2333;
 }
 .body-quiz .myQuiz .quizUp {
   text-align: center;
@@ -115,11 +116,28 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
-.body-quiz .myQuiz .quizCenter #questionSet {
-  border: 1px solid red;
+.body-quiz .myQuiz #quizCenter {
+  padding-left: 40px;
 }
 .body-quiz .myQuiz .quizBottom {
   display: none;
+  text-align: center;
+}
+.body-quiz .myQuiz .quizBottom #submit {
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #088dcd;
+  margin-top: 15px;
+  padding: 10px 15px;
+  transition: 0.3s ease-in-out;
+}
+.body-quiz .myQuiz .quizBottom #submit:hover {
+  background-color: #ffffff;
+  border-color: #088dcd;
+  color: #088dcd;
 }
 .body-quiz .myQuiz .quizBottom.myActive {
   display: block;

@@ -91,7 +91,7 @@ startQuiz.onclick = function () {
 
                 // add this question and its answers to the output
                 output.push(
-                    `<div class="question"> <h3> ${currentQuestion.question} </h3></div>
+                    `<div class="question"> <h3 style="padding-top:30px" > ${currentQuestion.question} </h3></div>
               <div class="answers"> ${answers.join('')} </div>`
                 );
 

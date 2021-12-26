@@ -407,6 +407,7 @@ body {
   background-color: #1D2333;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 6px;
+  margin-bottom: 20px;
 }
 .courses .courses-right .right-popular h5 {
   font-size: 16px;
@@ -417,9 +418,6 @@ body {
 }
 .courses .courses-right .right-popular .popular-body .popular-body-left img {
   border-radius: 8px;
-}
-.courses .courses-right .right-popular .popular-body .popular-body-right {
-  padding-top: 20px;
 }
 .courses .courses-right .right-popular .popular-body .popular-body-right h3 a {
   text-decoration: none;
@@ -436,7 +434,6 @@ body {
   color: #088dcd;
 }
 .courses .courses-right .right-ask {
-  margin-top: 20px;
   background-color: #1D2333;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 6px;
@@ -517,5 +514,30 @@ body {
 @media (max-width: 577px) {
   .courses .courses-right .right-popular {
     margin-top: 20px !important;
+  }
+}
+@media (max-width: 992px) {
+  .courses .courses-left,
+.courses .courses-right {
+    padding-top: 25px;
+  }
+  .courses .courses-left .courses-left-body {
+    padding-bottom: 15px;
+  }
+  .courses .courses-left .courses-left-body .courses-left-box .courses-left-box-text {
+    padding-top: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .courses .courses-right .right-ask a {
+    padding: 7px 15px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .courses .courses-left .courses-left-body {
+    padding-bottom: 15px;
+  }
+  .courses .courses-left .courses-left-body .courses-left-box .courses-left-box-text {
+    padding-top: 10px;
   }
 }/*# sourceMappingURL=courses.css.map */
