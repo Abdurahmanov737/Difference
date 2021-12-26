@@ -1,0 +1,126 @@
+body {
+  background-color: #151A27;
+}
+
+.body-quiz {
+  width: 100%;
+  padding-top: 50px;
+  color: #ffffff;
+}
+.body-quiz .LeftMenu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  align-self: flex-start;
+  transition: 0.3s ease-in-out;
+  z-index: 2;
+}
+.body-quiz .LeftMenu ul {
+  background-color: #21283B;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 10px;
+  border-radius: 6px;
+}
+.body-quiz .LeftMenu ul .dropped {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.body-quiz .LeftMenu ul .dropped .dropped-item {
+  display: none;
+  padding: 0;
+}
+.body-quiz .LeftMenu ul .dropped .dropped-item li a {
+  color: #888;
+  font-size: 1rem;
+}
+.body-quiz .LeftMenu ul .dropped .dropped-item li:hover a {
+  color: #fff;
+}
+.body-quiz .LeftMenu ul li {
+  padding: 10px 0;
+}
+.body-quiz .LeftMenu ul li:hover a {
+  color: #088dcd;
+}
+.body-quiz .LeftMenu ul li a {
+  color: #BCBCBC;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.body-quiz .LeftMenu ul li .tag {
+  font-size: 0.8rem;
+  background-color: green;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.body-quiz .LeftMenu ul li span {
+  color: #BCBCBC;
+}
+.body-quiz .LeftMenu ul button {
+  padding: 8px 18px;
+  background-color: yellow;
+  border-radius: 30px;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+.body-quiz .LeftMenu ul button a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.body-quiz .LeftMenu ul button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0%;
+  height: 200px;
+  background-color: #98cb46;
+  transform: translateY(-45%) skew(25deg) scale(0);
+  transition: 0.3s ease-in-out;
+}
+.body-quiz .LeftMenu ul button:hover::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  width: 115%;
+  height: 200px;
+  background-color: #27304B;
+  transform: translateY(-55%) skew(20deg) scale(1);
+  color: #fff;
+  border-radius: 3px;
+}
+.body-quiz .LeftMenu ul button:hover a {
+  color: #fff;
+}
+.body-quiz .myQuiz {
+  border: 1px solid red;
+}
+.body-quiz .myQuiz .quizUp {
+  text-align: center;
+  padding-top: 15px;
+}
+.body-quiz .myQuiz .quizUp button {
+  border: none;
+  background-color: #151a27;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.body-quiz .myQuiz .quizCenter #questionSet {
+  border: 1px solid red;
+}
+.body-quiz .myQuiz .quizBottom {
+  display: none;
+}
+.body-quiz .myQuiz .quizBottom.myActive {
+  display: block;
+}/*# sourceMappingURL=style.css.map */

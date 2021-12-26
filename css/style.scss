@@ -1,0 +1,167 @@
+
+body {
+    background-color: #151A27;
+}
+
+$divColor: #1D2333;
+$blue:#088dcd;
+
+
+.body-quiz{
+    width: 100%;
+    padding-top: 50px;
+    color: #ffffff;
+
+
+    .LeftMenu{
+        position: sticky;
+        top: 0px;
+        width: 100%;
+        align-self: flex-start;
+        transition: .3s ease-in-out;
+        z-index: 2;
+        ul{
+            // margin: 10px 0;
+            background-color: #21283B;
+            align-items: center;
+            flex-direction: column;
+            padding: 50px 10px;
+        border-radius: 6px;
+
+           .dropped{
+               text-align: center;
+               border-bottom: 1px solid #ccc;
+               .dropped-item{
+                   display: none;
+                   padding: 0;
+                   li{
+                       a{
+                           color:#888;
+                           font-size: 1rem;
+                       }
+                       &:hover{
+                           a{
+                               color: #fff;
+                           }
+                       }
+                   }                         
+               }
+           }
+            li{
+                padding: 10px 0;
+                &:hover{
+                    a{
+                        color: $blue;
+
+                    }
+                }
+                a{
+                    color:#BCBCBC;
+                    text-decoration: none;
+                    font-size: 1.3rem;
+                    font-weight: 700;
+                }
+               .tag{
+                   font-size: 0.8rem;
+                   background-color: green;
+                   padding: 2px 5px;
+                   border-radius: 5px;
+                   font-weight: 500;
+               }
+               
+                span{
+                    color: #BCBCBC;
+                }
+               
+            }
+            button{
+                padding: 8px 18px;
+                background-color:yellow;
+                border-radius: 30px;
+                border: none;
+                position: relative;
+                overflow: hidden;
+                a{
+                    position: relative;
+                    color: #fff;
+                    text-decoration: none;
+                    font-weight: 500;
+                }
+                &::before{
+                    content:'';
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    width: 0%;
+                    height: 200px;
+                    background-color: #98cb46;
+                    transform: translateY(-45%)skew(
+                    25deg)scale(0);
+                    transition: 0.3s ease-in-out;
+                    
+                }
+                &:hover{
+                    &::before{
+                        content:'';
+                        position: absolute;
+                        top: 50%;
+                        left: -10%;
+                        width: 115%;
+                        height: 200px;
+                        background-color: #27304B;
+                        transform: translateY(-55%)skew(
+                        20deg)scale(1);
+                        color: #fff; 
+                        border-radius: 3px;
+                    }
+                    a{
+                        color:#fff;
+                    }
+                }
+                
+            }
+        }
+          
+    }
+    .myQuiz{
+
+        border: 1px solid red;
+    
+        .quizUp{
+    
+            text-align: center;
+            padding-top: 15px;
+    
+            button{
+    
+                border: none;
+                background-color: #151a27;
+                color: #ffffff;
+                padding: 10px 15px;
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    
+        .quizCenter{
+    
+            #questionSet{
+                border: 1px solid red;
+            }
+        }
+    
+        .quizBottom{
+            display: none;
+    
+            &.myActive{
+                display: block;
+            }
+        
+        }
+    }
+    
+}
+
+
+
+// countdown
