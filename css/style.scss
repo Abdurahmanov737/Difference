@@ -136,8 +136,10 @@ $blue:#088dcd;
 
     .myQuiz {
 
-        border: 1px solid red;
+        // border: 1px solid red;
         background-color: #1D2333;
+        box-shadow: rgba(156, 152, 152, 0.3) 0px 30px 60px -12px inset, rgba(156, 152, 152, 0.3) 0px 18px 36px -18px inset;
+    //   ?  box-shadow: #fff 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
         .quizUp {
 
             text-align: center;
@@ -151,6 +153,20 @@ $blue:#088dcd;
                 padding: 10px 15px;
                 font-size: 18px;
                 font-weight: 500;
+            }
+        }
+
+        #quizCenter{
+            .question{
+                h3{
+                    font-size: 22px;
+                }
+            }
+
+            .answers{
+                label{
+                    font-size: 16px;
+                }
             }
         }
 
